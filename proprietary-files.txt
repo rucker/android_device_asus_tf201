@@ -5,6 +5,7 @@ bin/tf_daemon
 etc/enctune.conf
 etc/u-blox.conf
 etc/asound.conf
+etc/bluetooth/main.conf
 etc/dbus.conf
 etc/nvaudio_conf_RT5631.xml
 etc/nvaudio_conf_RT5642.xml
