@@ -26,7 +26,7 @@
 #include <fcntl.h>
 #include <dirent.h>
 #include <sys/ioctl.h>
-
+#include <string.h>
 
 
 #include <linux/ioctl.h>

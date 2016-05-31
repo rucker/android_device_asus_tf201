@@ -1,5 +1,7 @@
 LOCAL_PATH:= $(call my-dir)
 
+LOCAL_LDLIBS := -ldl -llog -landroid -L$(SYSROOT)/usr/lib
+
 include $(CLEAR_VARS)
 
 LOCAL_SHARED_LIBRARIES := \
