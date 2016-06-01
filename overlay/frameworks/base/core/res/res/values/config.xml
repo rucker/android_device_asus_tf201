@@ -101,8 +101,6 @@
         /system/framework/com.cyanogenmod.asusdec.jar</string>
 
 		<add-resource type="string" name="config_deviceDockBatteryHandlerClass"></add-resource>
-    <string name="config_deviceDockBatteryHandlerClass" translatable="false">
-        com.cyanogenmod.asusdec.DockBatteryHandler</string>
 
     <string name="config_deviceKeyHandlerClass" translatable="false">
         com.cyanogenmod.asusdec.KeyHandler</string>
