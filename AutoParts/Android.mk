@@ -10,6 +10,12 @@ LOCAL_PACKAGE_NAME := AutoParts_tfp
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 LOCAL_CERTIFICATE := platform
 
+LOCAL_STATIC_JAVA_LIBRARIES += libhttpclient libhttpcore
+
 include $(BUILD_PACKAGE)
+include $(CLEAR_VARS)
+
+LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES := libhttpclient:libs/httpclient-4.0.3.jar libhttpcore:libs/httpcore-4.0.1.jar
+include $(BUILD_MULTI_PREBUILT)
 
 include $(call all-makefiles-under,$(LOCAL_PATH))
