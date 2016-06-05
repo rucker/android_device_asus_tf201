@@ -14,11 +14,6 @@
 
 # Camera
 PRODUCT_PACKAGES := \
-	HoloSpiralWallpaper \
-	LiveWallpapersPicker \
-	VisualizationWallpapers \
-
-PRODUCT_PACKAGES += \
     	Camera
 
 # Inherit full-base
